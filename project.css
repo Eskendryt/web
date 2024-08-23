@@ -1,0 +1,291 @@
+
+.header{
+    height: 95vh;
+    width: 100%;
+    background-color: black;
+}
+
+.head {
+    background-image: url(./images/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 95vh;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    list-style: none;
+    margin: 20px;
+}
+
+nav {
+    list-style: none;
+
+    display: flex;
+}
+
+
+nav li a {
+    margin: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-weight: 900;
+}
+
+nav li a:hover {
+    background-color: white;
+    color: black;
+}
+
+.logo {
+    color: white;
+    margin-left: 20px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+}
+
+.text {
+    color: white;
+}
+
+button {
+    background-color: rgb(0, 143, 253);
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
+
+.first-paragraph {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 45vh;
+}
+
+.heading-one {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.paragraph-one {
+    text-align: center;
+    margin: 60px;
+    border-bottom: ;
+}
+
+.underline {
+    display: block;
+    width: 200px;
+    align-self: center;
+    border-bottom: 2px solid rgb(20, 169, 238);
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    margin-bottom: 80px;
+}
+
+.coast {
+    width: 280px;
+    height: 250px;
+    margin: 7px;
+}
+
+.island {
+    width: 500px;
+    height: 250px;
+    margin: 7px;
+}
+
+.balloon {
+    width: 500px;
+    height: 250px;
+    margin: 7px;
+}
+
+.mountain {
+    width: 280px;
+    height: 250px;
+    margin: 7px;
+}
+
+.second-paragraph {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 45vh;
+}
+
+.heading-two {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.paragraph-two {
+    text-align: center;
+    margin: 40px;
+    border-bottom: ;
+}
+
+.underline-two {
+    display: block;
+    width: 200px;
+    align-self: center;
+    border-bottom: 2px solid rgb(20, 169, 238);
+}
+
+.final-part {
+    height: 1250px;
+    background-color: lightgray;
+}
+
+.third-paragraph {
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    margin-left: 12%;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+#a {
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+}
+
+#b {
+    display: inline-block;
+    height: 200px;
+    width: 250px;
+    text-align: center;
+}
+
+#c {
+    display: inline-block;
+    height: 200px;
+    width: 250px;
+    text-align: center;
+}
+
+.fourth-paragraph {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 45vh;
+    margin-top: 150px;
+}
+
+.heading-four {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.paragraph-four {
+    text-align: center;
+    margin: 40px;
+    border-bottom: ;
+}
+
+.underline-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.underline-three {
+    display: block;
+    width: 200px;
+    height: 3px;
+   border-bottom: 2px solid rgb(20, 169, 238);
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-two{
+    width: 400px;
+    height: 35px;
+    margin-right: 25px;
+}
+
+.button{
+    height: 40px;
+    width: 250px;
+    background-color: rgb(0, 153, 255);
+    font-size: larger;
+    text-align: center;
+    border: none;
+}
+
+.footer-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: rgba(31, 31, 31, 0.81);
+    border-bottom: 20px solid black;
+}
+.footer-paragraph{
+    width: 500px;
+    border-bottom: 30px;
+}
+
+@media  screen and (max-width: 900px) {
+    .navigation{
+        align-items: center;
+        flex-direction: column;
+    }
+    .images{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .coast{
+        height: 200px;
+        width: 200px;
+    }
+    .island{
+        height: 200px;
+        width: 200px;
+    }
+    .balloon{
+        height: 200px;
+        width: 200px;
+    }
+    .mountain{
+        height: 200px;
+        width: 200px;
+    }
+    .final-part{
+        height: 1600px;
+    }
+    .input{
+        flex-direction: column;
+    }
+    .text-two{
+        margin-bottom: 15px;
+    }
+}
